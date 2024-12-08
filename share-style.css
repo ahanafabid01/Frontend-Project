@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1117; /* Dark gaming vibe */
+    color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Share Section */
+  .share-section {
+    padding: 3rem 2rem;
+    background: #161b22;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .share-header h2 {
+    font-size: 2.5rem;
+    color: #00d8ff;
+  }
+  
+  .share-header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #cccccc;
+  }
+  
+  /* Share Content */
+  .share-content {
+    margin-top: 2rem;
+  }
+  
+  .share-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  
+  .step {
+    background: #1f242c;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .step:hover {
+    transform: scale(1.05);
+  }
+  
+  .step img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .step h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #ff6f61;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #cccccc;
+  }
+  
+  /* Share CTA */
+  .share-cta {
+    margin-top: 2rem;
+    background: #0d1117;
+    border: 2px solid #00d8ff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .share-cta h3 {
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+  
+  .share-cta p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #cccccc;
+  }
+  
+  .cta-button {
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #00d8ff;
+    color: #161b22;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #ff6f61;
+    color: #ffffff;
+  }

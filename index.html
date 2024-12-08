@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameHaven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <h1 class="logo">GameHaven</h1>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="rent.html">Rent</a></li>
+              <li><a href="share.html">Share</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-right">
+            <div class="search-bar">
+              <input type="text" placeholder="Search games, consoles..." />
+              <button>🔍</button>
+            </div>
+            <div class="location-dropdown">
+              <select>
+                <option value="dhaka">Dhaka</option>
+                <option value="chattogram">Chattogram</option>
+                <option value="khulna">Khulna</option>
+                <option value="sylhet">Sylhet</option>
+                <option value="rajshahi">Rajshahi</option>
+                <option value="rangpur">Rangpur</option>
+                <option value="barishal">Barishal</option>
+              </select>
+            </div>
+            <div class="auth-buttons">
+              <a href="signin.html" class="signin">Sign In</a>
+              <a href="signup.html" class="signup">Sign Up</a>
+            </div>
+            <div class="profile-menu-container">
+              <div class="profile-icon">
+                <img src="icons/profile.jpg" alt="Profile">
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                  <li><a href="profile.html">👤 My Profile</a></li>
+                  <li><a href="mylist.html">🛒 My isting</a></li>
+                  <li><a href="cart.html">🛒 My Cart</a></li>
+                  <li><a href="help.html">❓ Help</a></li>
+                  <li><a href="setting.html">⚙️ Settings</a></li>
+                  <li><a href="logout.html">🔓 Log Out</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+      </header>
+
+      <section class="hero">
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="hero/hero1.jpg" alt="Gaming Setup 1">
+            </div>
+            <div class="carousel-slide">
+              <img src="hero/hero2.jpg" alt="Gaming Setup 2">
+            </div>
+            <div class="carousel-slide">
+              <img src="hero/hero3.jpg" alt="Gaming Setup 3">
+            </div>
+            <div class="carousel-slide">
+              <img src="hero/hero4.jpg" alt="Gaming Setup 4">
+            </div>
+            <div class="carousel-slide">
+              <img src="hero/hero5.jpg" alt="Gaming Setup 5">
+            </div>
+          </div>
+        </div>
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h2>Welcome to GameHaven</h2>
+            <p>Your ultimate destination for gaming gear on demand! Dive into endless gaming possibilities.</p>
+            <a href="#rent" class="cta-button">Explore Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="rent" class="section rent-section">
+        <div class="section-header">
+          <h2>🎮 Rent Your Favorites</h2>
+          <p>Choose from a curated collection of gaming consoles and disks for every type of gamer!</p>
+        </div>
+        <div class="rent-grid">
+          <div class="rent-item">
+            <img src="images/console2.jpg" alt="PlayStation 5">
+            <h3>PlayStation 5</h3>
+            <p>Next-gen graphics and ultra-fast load times. Dive into the future of gaming.</p>
+          </div>
+          <div class="rent-item">
+            <img src="images/console1.png" alt="Xbox Series X">
+            <h3>Xbox Series X</h3>
+            <p>True 4K gaming with stunning visuals. Experience powerful gameplay.</p>
+          </div>
+          <div class="rent-item">
+            <img src="images/console3.jpg" alt="Nintendo Switch">
+            <h3>Nintendo Switch</h3>
+            <p>Perfect for gaming on the go or at home. Fun for all ages.</p>
+          </div>
+          <div class="rent-item">
+            <img src="images/retro.jpg" alt="Retro Console">
+            <h3>Retro Consoles</h3>
+            <p>Rediscover classic gaming gems from yesteryears.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="share" class="share-section">
+        <div class="container">
+          <div class="share-content">
+            <div class="share-text">
+              <h2>💰 Share & Earn</h2>
+              <p>Got unused gaming gear? It's time to put it to good use! List your console or game disks on GameHaven and earn while others enjoy them!</p>
+              <ul>
+                <li>📦 <strong>List Your Gear:</strong> Upload your gaming consoles or disks for rent.</li>
+                <li>🔗 <strong>Connect with Gamers:</strong> Rent your gear to fellow enthusiasts.</li>
+                <li>💵 <strong>Earn Rewards:</strong> Receive payments while your gear is in use.</li>
+              </ul>
+              <a href="list-gear.html" class="cta-button">List Your Gear</a>
+            </div>
+            <div class="share-image">
+              <img src="images/share.png" alt="Share Your Gaming Gear">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features-section">
+        <div class="section-header">
+          <h2>✨ Features That Enhance Your Experience</h2>
+          <p>Level up your rentals with these game-changing features!</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-item">
+            <img src="icons/dynamic.jpg" alt="Dynamic Filters">
+            <h3>Dynamic Filters</h3>
+            <p>Quickly find your favorite consoles and disks by type, genre, or duration.</p>
+          </div>
+          <div class="feature-item">
+            <img src="icons/wishlist.jpg" alt="Wishlist">
+            <h3>Wishlist</h3>
+            <p>Save your favorites for later. Never lose track of what you love.</p>
+          </div>
+          <div class="feature-item">
+            <img src="icons/notification.jpg" alt="Notifications">
+            <h3>Notifications</h3>
+            <p>Stay updated on availability, deals, and trending games.</p>
+          </div>
+          <div class="feature-item">
+            <img src="icons/payments.jpg" alt="Secure Payments">
+            <h3>Secure Payments</h3>
+            <p>Rent with confidence thanks to our secure transaction system.</p>
+          </div>
+          <div class="feature-item">
+            <img src="icons/community.jpg" alt="Community">
+            <h3>Connected Community</h3>
+            <p>Join a thriving community of gamers and gear sharers.</p>
+          </div>
+        </div>
+      </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h3>About GameHaven</h3>
+        <p>
+          GameHaven is your one-stop solution for renting gaming consoles and disks. Whether you're a casual player or a hardcore gamer, we've got something for everyone. 
+          Join our community and level up your gaming experience!
+        </p>
+      </div>
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#rent">Rent a Console</a></li>
+          <li><a href="#share">Share Your Gear</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:support@gamehaven.com">support@gamehaven.com</a></p>
+        <p>Phone: +1 800 123 4567</p>
+        <p>Follow us:</p>
+        <div class="social-icons">
+          <a href="#"><img src="icons/fb.jpg" alt="Facebook"></a>
+          <a href="#"><img src="icons/twitter.jpeg" alt="Twitter"></a>
+          <a href="#"><img src="icons/insta.png" alt="Instagram"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 GameHaven. All rights reserved. | Privacy Policy | Terms of Service</p>
+    </div>
+  </footer>
+</body>
+</html>

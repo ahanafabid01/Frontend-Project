@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameHaven - Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <div class="profile-container">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <h2>Your Profile</h2>
+      <p>Welcome back, Gamer! Customize your profile and enjoy your gaming journey.</p>
+    </div>
+    
+    <!-- Profile Info Section -->
+    <div class="profile-info">
+      <div class="profile-picture">
+        <img src="images/profile.webp" alt="Profile Picture">
+        <button class="change-pic-btn">Change Picture</button>
+      </div>
+      <div class="profile-details">
+        <div class="detail-item">
+          <label for="username">🎮 Username:</label>
+          <input type="text" id="username" value="Gamer123" disabled>
+        </div>
+        <div class="detail-item">
+          <label for="email">📧 Email:</label>
+          <input type="email" id="email" value="gamer123@example.com" disabled>
+        </div>
+        <div class="detail-item">
+          <label for="location">🌍 Location:</label>
+          <input type="text" id="location" value="Dhaka, Bangladesh" disabled>
+        </div>
+        <div class="detail-item">
+          <label for="bio">💬 Bio:</label>
+          <textarea id="bio" rows="4" disabled>Hardcore gamer. Love exploring new game worlds and challenges!</textarea>
+        </div>
+        <button class="edit-btn">Edit Profile</button>
+      </div>
+    </div>
+    
+    <!-- Rented Games Section -->
+    <div class="profile-games">
+      <h3>Your Rented Games</h3>
+      <div class="rented-games-list">
+        <div class="rented-game">
+          <img src="images/mw.jpg" alt="Game 1">
+          <h4>Call of Duty: Modern Warfare</h4>
+          <p>Status: Rented</p>
+        </div>
+        <div class="rented-game">
+          <img src="images/fifa23.webp" alt="Game 2">
+          <h4>FIFA 23</h4>
+          <p>Status: Rented</p>
+        </div>
+        <div class="rented-game">
+          <img src="images/witcher3.jpg" alt="Game 3">
+          <h4>The Witcher 3</h4>
+          <p>Status: Returned</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Log Out Button -->
+    <div class="logout-section">
+      <a href="logout.html"><button class="logout-btn">Log Out</button></a>
+    </div>
+  </div>
+
+</body>
+</html>

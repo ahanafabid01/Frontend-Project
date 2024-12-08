@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Your Gear | GameHaven</title>
+  <link rel="stylesheet" href="list-gear.css">
+</head>
+<body>
+  <header class="header">
+    <h1>List Your Gear</h1>
+    <p>Turn your unused gaming gear into earnings by sharing with the gaming community!</p>
+  </header>
+
+  <section class="list-gear-form-section">
+    <div class="form-container">
+      <h2>Enter Your Gear Details</h2>
+      <form action="/submit-gear" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="gear-name">🎮 Gear Name</label>
+          <input type="text" id="gear-name" name="gear-name" placeholder="e.g., PlayStation 5" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gear-type">📦 Gear Type</label>
+          <select id="gear-type" name="gear-type" required>
+            <option value="console">Console</option>
+            <option value="disk">Game Disk</option>
+            <option value="accessory">Accessory</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="price">💰 Rental Price (Per Day)</label>
+          <input type="number" id="price" name="price" placeholder="Enter price in USD" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gear-description">📝 Description</label>
+          <textarea id="gear-description" name="gear-description" rows="5" placeholder="Describe your gear (condition, features, etc.)"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="gear-image">📸 Upload Image</label>
+          <input type="file" id="gear-image" name="gear-image" accept="image/*" required>
+        </div>
+
+        <div class="form-group">
+          <label for="availability">📅 Availability</label>
+          <input type="date" id="availability" name="availability" required>
+        </div>
+
+        <button type="submit" class="submit-btn">List Your Gear</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 GameHaven. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1117; /* Gaming vibe */
+    color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00d8ff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #161b22;
+    border-bottom: 2px solid #00d8ff;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #00d8ff;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #cccccc;
+  }
+  
+  /* Form Section */
+  .list-gear-form-section {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: #1f242c;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff6f61;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #000000;
+    border: 2px solid #00d8ff;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  input[type="file"] {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #161b22;
+    background-color: #00d8ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6f61;
+    color: #ffffff;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #161b22;
+    color: #cccccc;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #00d8ff;
+  }
+  
+  footer a:hover {
+    color: #ff6f61;
+  }

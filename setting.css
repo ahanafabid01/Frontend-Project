@@ -1,0 +1,169 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body & Font Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff5a00;
+    margin-bottom: 30px;
+  }
+  
+  /* Settings Section */
+  .settings-section {
+    background-color: #1c1c1c;
+    padding: 50px 20px;
+    border-radius: 10px;
+  }
+  
+  .settings-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .settings-column {
+    flex: 1;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .settings-column h3 {
+    color: #ff5a00;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .settings-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .settings-form .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .settings-form .form-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .settings-form .form-group input:focus {
+    outline: none;
+    border-color: #ff5a00;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff5a00;
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e04e00;
+  }
+  
+  /* Notification Settings */
+  .settings-notifications {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .settings-notifications h3 {
+    color: #ff5a00;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .notification-option {
+    margin-bottom: 15px;
+  }
+  
+  .notification-option label {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .notification-option input {
+    margin-right: 10px;
+  }
+  
+  /* Account Preferences */
+  .settings-preferences {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .settings-preferences h3 {
+    color: #ff5a00;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .preference-option {
+    margin-bottom: 15px;
+  }
+  
+  .preference-option label {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .preference-option input {
+    margin-right: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .settings-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .settings-column {
+      width: 100%;
+    }
+  
+    .cta-button {
+      width: auto;
+    }
+  }

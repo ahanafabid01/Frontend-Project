@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proceed to Checkout - GameHaven</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+  <!-- Checkout Section -->
+  <section id="checkout" class="checkout-section">
+    <div class="container">
+      <h2 class="section-title">Proceed to Checkout</h2>
+
+      <div class="checkout-content">
+        <!-- Left Column: Cart Summary -->
+        <div class="checkout-summary">
+          <h3>Your Cart</h3>
+          <p>Confirm your items and total before proceeding with payment.</p>
+
+          <!-- Cart Items -->
+          <div class="checkout-items">
+            <div class="checkout-item">
+              <img src="playstation.jpg" alt="PlayStation 5" class="checkout-item-img">
+              <div class="checkout-item-details">
+                <h4>PlayStation 5</h4>
+                <p>Next-gen graphics and ultra-fast load times.</p>
+                <p class="checkout-price">$499.99</p>
+              </div>
+            </div>
+
+            <div class="checkout-item">
+              <img src="xbox.jpg" alt="Xbox Series X" class="checkout-item-img">
+              <div class="checkout-item-details">
+                <h4>Xbox Series X</h4>
+                <p>True 4K gaming with stunning visuals.</p>
+                <p class="checkout-price">$499.99</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Total Price -->
+          <div class="checkout-total">
+            <h4>Total: </h4>
+            <p>$999.98</p>
+          </div>
+
+          <!-- Proceed to Payment Button -->
+        </div>
+
+        <!-- Right Column: Payment Form -->
+        <div class="checkout-info">
+          <h3>Payment Information</h3>
+          <form class="checkout-form">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Shipping Address</label>
+              <textarea id="address" placeholder="Enter your shipping address" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+            </div>
+
+            <h4>Choose Your Payment Method</h4>
+            <div class="payment-options">
+              <label>
+                <input type="radio" name="payment-method" value="credit-card"> Credit Card
+              </label>
+              <label>
+                <input type="radio" name="payment-method" value="paypal"> PayPal
+              </label>
+              <label>
+                <input type="radio" name="payment-method" value="bank-transfer"> Bank Transfer
+              </label>
+              <label>
+                <input type="radio" name="payment-method" value="mobile-banking"> Mobile Banking (Bangladesh)
+              </label>
+            </div>
+
+            <!-- Mobile Banking Options (Bangladesh) -->
+            <div class="mobile-banking-options">
+              <h5>Mobile Banking Services</h5>
+              <label>
+                <input type="radio" name="mobile-banking" value="bkash"> bKash
+              </label>
+              <label>
+                <input type="radio" name="mobile-banking" value="nagad"> Nagad
+              </label>
+              <label>
+                <input type="radio" name="mobile-banking" value="rocket"> Rocket
+              </label>
+            </div>
+
+            <button type="submit" class="cta-button">Proceed to Payment</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
